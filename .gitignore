@@ -1,0 +1,16 @@
+# Python environments and generated files
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# API keys and local Streamlit secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Uploaded and indexed academic material stays local
+data/uploads/
+data/chroma_db/
+data/**/*.pdf
